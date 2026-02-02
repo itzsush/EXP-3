@@ -1,0 +1,8 @@
+Experiment 1 focuses on the structural foundation of the application. It introduces the essential software requirements—Node.js and React—and the core library, react-router-dom. The primary goal here is to wrap the application in a BrowserRouter and use Routes and Route components to define specific paths. This setup acts as the "brain" of the app, allowing it to monitor the browser's URL and determine which specific view should be rendered without requesting a new document from the server.
+
+![alt text][Screenshot 2026-02-02 150226.png]
+
+
+Experiment 2 shifts the focus to user interaction by implementing the Link component. In a traditional website, navigation is handled by anchor tags (<a>) that trigger a full page reload, but in an SPA, this would reset the application state and slow down the experience. By using the Link component, the developer enables "smooth navigation," where the URL changes and the view updates instantly without the browser ever flickering or reloading, maintaining a seamless flow for the user.
+
+Experiment 3 scales these concepts into a complete project architecture. It involves creating multiple distinct page components—such as Home, About, or Contact—and mapping each one to a unique route defined in the first experiment. This final step demonstrates how to organize a complex, multi-view application that feels like a traditional website to the user but functions as a single, high-performance unit. Testing this navigation ensures that all components render correctly based on their assigned URL paths.
